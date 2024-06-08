@@ -1,0 +1,10 @@
+﻿<controls:RoadmapHeader
+    xmlns="https://spacestation14.io"
+    xmlns:controls="clr-namespace:Content.Client._Arcanica.Roadmap"
+    xmlns:cc="clr-namespace:Content.Client.Administration.UI.CustomControls"
+    Orientation="Horizontal"
+    Margin="0 0 0 15">
+    <cc:HSeparator Color="#4972A1" HorizontalExpand="True" MaxHeight="2" />
+    <Label Name="TextValue" Access="Public" Margin="5 0" />
+    <cc:HSeparator Color="#4972A1" HorizontalExpand="True" MaxHeight="2" />
+</controls:RoadmapHeader>
