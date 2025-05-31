@@ -62,3 +62,8 @@ Resources/Maps/**.yml merge=mapping-merge-driver
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+###############################################################################
+# Take ownership of the codebase, so we don't ping wizards people.
+###############################################################################
+.github/CODEOWNERS merge=ours
