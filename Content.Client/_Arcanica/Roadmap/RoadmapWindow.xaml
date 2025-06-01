@@ -1,0 +1,92 @@
+﻿<controls:RoadmapWindow
+    xmlns="https://spacestation14.io"
+    xmlns:controls="clr-namespace:Content.Client._Arcanica.Roadmap"
+    MinSize="900 800"
+    Title="{Loc arc-ui-roadmap}">
+    <ScrollContainer>
+        <BoxContainer Orientation="Vertical">
+            <RichTextLabel Name="Header" Access="Public" Margin="0 15 0 10" />
+            <BoxContainer Name="Columns" Access="Public" Orientation="Horizontal">
+                <BoxContainer Name="FirstVersion" Access="Public" Orientation="Vertical" HorizontalExpand="True" Margin="10 0 10 0">
+                    <controls:RoadmapHeader Text="Initial Mapping" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Village Map" Text="Basic Starting map for LowPop. :D"/>
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Dev Map" Text="Map for testing dev stuff."/>
+                    <BoxContainer Name="FirstSubOne" Access="Public" Orientation="Vertical"  HorizontalExpand="True" Margin="5 0 5 0">
+                        <controls:RoadmapHeader Text="Spriting" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Dirt" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Trees" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Shrubbery" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Grass" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Water" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Stone Walls" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Wood Framed Walls" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Wood Doors" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Paths" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Impassible border tile types" />
+                    </BoxContainer>
+                    <BoxContainer Name="FirstSubTwo" Access="Public" Orientation="Vertical"  HorizontalExpand="True" Margin="5 0 5 0">
+                        <controls:RoadmapHeader Text="Code Changes" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Remove 'Tiles'" Text="No reason to crowbar up the floor. The GROUND is ultimately indestructible."/>
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Impassible Tiles" Text="For world borders, should be simple, but we want multiple types."/>
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Other" Text="Will need to add in logic for some of the new sprited stuff"/>
+                    </BoxContainer>
+                </BoxContainer>
+                <BoxContainer Name="SecondVersion" Access="Public" Orientation="Vertical"  HorizontalExpand="True" Margin="10 0 10 0">
+                    <controls:RoadmapHeader Text="Characters" />
+                    <BoxContainer Name="SecondSubOne" Access="Public" Orientation="Vertical"  HorizontalExpand="True" Margin="5 0 5 0">
+                        <controls:RoadmapHeader Text="Character Stats" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Intelligence" Text="Honestly, won't have much effect in the early versions of arcanica :sweat_smile:" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Dexterity" Text="Skillful use of tools, movement, etc." />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Perception" Text="Determines a lot of visual things, and hearing radiuses." />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Quickness" Text="'Deng, he aint good at it, but he sure do it quick'" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Stamina" Text="Stun threshhold, and other stuff along those lines." />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Strength" Text="Carry capacity, effective use of heavy implements." />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="More!" Text="Share YOUR ideas on the discord, or contribute to the project :D" />
+                    </BoxContainer>
+                    <BoxContainer Name="SecondSubTwo" Access="Public" Orientation="Vertical"  HorizontalExpand="True" Margin="5 0 5 0">
+                        <controls:RoadmapHeader Text="Character Virtues and Flaws" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Animal Ken" Text="Talk to animals, don't get attacked by hostile animals" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Keen Vision" Text="Zoom 1.2" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Second Sight" Text="See the unseen" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="More!" Text="Share YOUR ideas on the discord, or contribute to the project :D" />
+                    </BoxContainer>
+                    <BoxContainer Name="SecondSubThree" Access="Public" Orientation="Vertical"  HorizontalExpand="True" Margin="5 0 5 0">
+                        <controls:RoadmapHeader Text="Character Skills" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Athletics" Text="Run like the wind. And stuff." />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Awareness" Text="Compliments perception, affects similar things" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="BlackSmithing" Text="Make nails." />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Brawl" Text="Punch better." />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Carpentry" Text="Shape wood" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Farming" Text="Till the soil" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Prospecting" Text="Strike the earth. Also, 'For Karl'." />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Music" Text="Isn't it weird how EVERYONE can just play music in space?" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Stealth" Text="Who needs a fuckin cobra heart (remain unnoticed and stuff)" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Swimming" Text="Don't drown" />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="Tanning" Text="Make leather and cured hide." />
+                        <controls:RoadmapItem ItemState="Planned" HeaderText="More!" Text="Share YOUR ideas on the discord, or contribute to the project :D" />
+                    </BoxContainer>
+                </BoxContainer>
+                <BoxContainer Name="ThirdVersion" Access="Public" Orientation="Vertical"  HorizontalExpand="True" Margin="10 0 10 0">
+                    <controls:RoadmapHeader Text="Plans" />
+                    <controls:RoadmapItem ItemState="InProgress" HeaderText="Characters" Text="Characters will be VASTLY different. Maybe." />
+                    <controls:RoadmapItem ItemState="InProgress" HeaderText="Mapping" Text="Since its not in space we have to start from the ground up in a lot of ways" />
+                    <controls:RoadmapItem ItemState="InProgress" HeaderText="Skills" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="A Single, Persistent, World" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Auto Generated Wilderness Maps" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Seasons" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Natural Disasters" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Magic" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Languages" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Currency" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Trade" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="NPCs" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Z levels" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Guilds" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="Contracts" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="More lobby art and music" Text="We are always looking for people to contribute more lobby art and music!" />
+                    <controls:RoadmapItem ItemState="Planned" HeaderText="More stuff!" Text="Share YOUR ideas on the discord, or contribute to the project :D" />
+                </BoxContainer>
+            </BoxContainer>
+        </BoxContainer>
+    </ScrollContainer>
+</controls:RoadmapWindow>
